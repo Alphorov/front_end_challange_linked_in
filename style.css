@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(92, 134, 186);
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    padding: 32px
+}
+
+
+main {
+    background-color: white;
+    margin: 30px 40px;
+    padding: 16px 32px 64px 32px;
+}
+
+form {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 134, 186);
+    padding-right: 1rem;
+}
+
+a+a {
+    border-left: 1px solid black;
+    padding: 0 1rem;
+}
+
+.top-hr {
+    background-color: rgb(111, 155, 207);
+    border: none;
+    height: 5px;
+}
+
+.bottom-hr {
+    background-color: rgb(167, 167, 168);
+    border: none;
+    height: 5px;
+}
+
+.blue-background {
+    /* background-color: rgb(111, 155, 207);
+     */
+    background: rgb(111, 155, 207);
+    background: linear-gradient(90deg, rgb(111, 165, 231) 0%, rgb(88, 144, 195) 30%);
+    padding: 4px 6px;
+    text-align: start;
+}
+
+#about-us ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    width: 120px;
+}
+
+#sign-up {
+    display: flex;
+}
+
+#about-as {
+    flex: 0.5;
+}
+
+label {
+    text-align: right;
+    min-width: 80px;
+}
+
+#sign-up form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 64px;
+    background-color: white;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin: 4px 0;
+}
+
+#sign-up-form {
+    border: 0.5px solid black;
+    text-align: center;
+    border-radius: 4px;
+    margin: 32px;
+}
+
+#sign-up button[type="submit"] {
+    background: #32c412;
+    background: linear-gradient(180deg, rgba(50, 196, 18, 1) 0%, rgba(0, 143, 67, 0.45) 50%, rgba(50, 196, 18, 1) 100%);
+    color: white;
+    border: 0.5px solid black;
+    padding: 2px 16px;
+    margin: 8px 0 8px 42px;
+    font-size: large;
+}
+
+.big-label {
+    opacity: 0.6;
+    font-size: 24px;
+}
+
+.search-line {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+    gap: 16px
+}
+
+.search-line input {
+    padding: 0 4px;
+}
+
+.search-line button {
+    padding: 4px 8px;
+}
+
+.search {
+    text-align: center;
+}
+
+.search a {
+    border: none;
+    padding: 0 2px;
+}
+
+.directory {
+    color: grey;
+    opacity: 0.8;
+}
+
+.links-name {
+    display: inline-block;
+    opacity: 0.6;
+    font-weight: bold;
+    width: 120px;
+
+}
+
+.link-groups div {
+    margin-bottom: 12px;
+}
+
+footer small {
+    color: rgba(0, 0, 0, 0.5);
+}
